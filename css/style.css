@@ -1,0 +1,99 @@
+
+
+body{
+    overflow-x: hidden;
+}
+
+.chat {
+    width: 73px;
+    height: 65px;
+    border-radius: 31%;
+    cursor: pointer;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+}
+.content {
+    background-image: url(../images/9.png);
+    border: 2px solid #80808017;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.content .topp {
+    background-image: url(../images/images\ \(2\).jpg);
+    width: 100%;
+    height: 119px;
+    color: white;
+    margin-top: -1px;
+}
+.content .topp .disp{
+    display: flex;
+}
+.content .topp .disp h5{
+    width: fit-content;
+    margin-right: auto;
+    margin-left: 20px;
+    margin-top: 14px;
+}
+
+.content .topp .disp span {
+    margin-top: 6px;
+    font-size: 24px;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+}
+.content .topp p {
+    margin-top: -13px;
+    margin-left: 19px;
+    font-size: 16px;
+    color: #efebebeb;
+}
+.content img{
+    margin-left: 17px;
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+}
+.content .mid {
+    display: flex;
+    margin-top: 19px;
+}
+.content .mid .messa {
+    background-image: linear-gradient(125deg, #1972F5 -10%, #004AB5 100%) !important;
+    padding: 6px;
+    color: white;
+    border-radius: 20px;
+    margin-left: 13px;
+    padding-left: 22px;
+    padding-right: 31px;
+}
+.content .mid img{
+    margin-left: 9px;
+}
+.content .botom {
+    margin-top: 161px;
+}
+.content .form-control {
+    height: 62px!important;
+    border: 0;
+    outline: 0!important;
+    width: 282px;
+    padding: 10px 10px;
+    padding-top: 0px;
+    margin-left: -1px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.hidden{
+    display: none;
+}
